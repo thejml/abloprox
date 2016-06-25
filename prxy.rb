@@ -91,13 +91,15 @@ class AbloProx < WEBrick::HTTPProxyServer
   private
   
   def blocked?(host)
-    h = host.split('.')
-    while !h.empty?
-      hostname = h.join '.'
-      return true if @blocked.include?(hostname)
-      h.shift
+    if (host!=nil)
+      h = host.split('.')
+      while !h.empty?
+        hostname = h.join '.'
+        return true if @blocked.include?(hostname)
+        h.shift
+      end
+      false
     end
-    false
   end
   
   def reload_blocklists(req, res)
