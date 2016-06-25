@@ -2,16 +2,10 @@
 
 billiger.de
 userlike.com
-facebook.com
-connect.facebook.net
 addthis.com
 visualwebsiteoptimizer.com
 liveperson.net
 amazon-adsystem.com
 mokonocdn.com
 bazaarvoice.com
-linkedin.net
-linkedin.com
-trivago.de
-trivago.com
-
+taboola.com
